@@ -134,3 +134,23 @@
 ### Insights
 - Error handling and logging are essential for robust applications, aiding in debugging and monitoring.
 
+
+## Iteration 10: Frontend Refinement
+
+### Observations
+- Identified inline TODO comments in `index.html` and `base.html` outlining required refinements.
+- Implemented semantic and accessibility improvements in the HTML elements.
+
+### Insights
+- Semantic and accessibility refinements are essential for creating a more inclusive and user-friendly application.
+
+
+## Iteration 11: Backend Placeholder Implementations
+
+### Observations
+- Identified placeholder implementations and TODO comments in backend Python files.
+- Started the implementation process by refining the `get_a_index` function in `data_retrieval.py`.
+
+### Insights
+- Placeholder implementations serve as markers that guide future development. Detailed inline comments provide a roadmap for completing these implementations.
+
