@@ -75,3 +75,15 @@ def register():
     db.session.add(new_user)
     db.session.commit()
     return jsonify({'message': 'User registered successfully!'})
+
+import logging
+
+logging.basicConfig(filename='app.log', level=logging.DEBUG)
+
+@app.route('/error', methods=['GET'])
+def error_route():
+    try:
+        x = 1 / 0  # This will cause a ZeroDivisionError
+    except ZeroDivisionError as e:
+        logging.error(f"An error occurred: {e}")
+        return jsonify({'error': 'An error occurred'}), 500
