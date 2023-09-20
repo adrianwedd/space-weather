@@ -114,3 +114,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 21 - Investigating Data Persistence Options
 - Created a new Python file and outlined a sample method for data persistence using SQLite.
 
+
+## Iteration 22 - Adding Advanced Visualization Features
+- Updated the frontend with a sample D3.js line chart to outline advanced visualization capabilities.
+
