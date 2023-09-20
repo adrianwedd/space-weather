@@ -231,3 +231,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 47 - Implementing Data Archival and Retrieval Functionalities for Long-Term Data Storage
 - Created a new file `data_archival.py` and outlined methods for archiving and retrieving long-term data.
 
+
+## Iteration 48 - Improving UI/UX with a Focus on Accessibility
+- Created a new file `index.html` and incorporated accessibility features like ARIA labels to improve the UI/UX.
+
