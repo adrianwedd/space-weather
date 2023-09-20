@@ -221,3 +221,50 @@
 ### Insights
 - A user-friendly interface for data visualization enhances the user experience and provides valuable insights into the data.
 
+
+## Task List Review
+
+### Completed Tasks
+
+1. **Project Setup and Version Control**: Prepared a local copy for development and outlined version control steps.
+2. **Code Exploration and Documentation**: Explored existing code and added inline TODOs.
+3. **Error Handling and Logging**: Added error handling and logging to the `get_a_index` function.
+4. **Performance Optimization**: Optimized the `get_a_index` function to reduce memory usage.
+5. **Data Caching**: Implemented a simple caching mechanism in the `get_a_index` function.
+6. **User Authentication**: Outlined a method for user authentication using Flask and Flask-Login.
+7. **UI for Data Visualization**: Added a simple outline for a data visualization UI component.
+
+### Pending Tasks
+
+1. **Data Validation**: Implement validation for the data retrieved from API calls.
+2. **Test Coverage**: Increase the test coverage for backend functionality.
+3. **Data Storage**: Consider options for persisting retrieved data, such as databases.
+4. **Advanced Visualization Features**: Add advanced data visualization features to the frontend.
+5. **User Roles and Permissions**: Extend the user authentication to include roles and permissions.
+6. **Deployment and Scaling**: Prepare the application for deployment and consider scaling options.
+7. **Code Refactoring**: Review the entire codebase for possible refactoring opportunities.
+
+### Next Steps
+
+- Proceed with implementing data validation for API calls.
+- Work on increasing the test coverage for the backend.
+
+## Iteration 19: Implementing Data Validation
+
+### Observations
+- Added data validation to the `get_a_index` function in `data_retrieval.py`.
+- Utilized simple if-else checks to validate API responses.
+
+### Insights
+- Data validation is crucial for ensuring the integrity and reliability of the data being processed.
+
+
+## Iteration 20: Increasing Test Coverage
+
+### Observations
+- Created a new test file `test_data_retrieval.py` in the backend tests folder.
+- Outlined a sample test case for the `get_a_index` function.
+
+### Insights
+- Comprehensive test coverage is essential for ensuring the robustness and reliability of the application.
+
