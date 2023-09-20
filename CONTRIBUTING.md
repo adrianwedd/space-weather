@@ -211,3 +211,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 42 - Prioritizing and Detailing Task List
 - Revised and updated the task list in `README.md` to be much more detailed and to align with high-priority work.
 
+
+## Iteration 43 - Implementing Real-time Data Visualization Dashboard
+- Added a sample method in `app.py` to outline features for real-time data visualization dashboard.
+

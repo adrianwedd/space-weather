@@ -201,3 +201,16 @@ def user_profile():
     return render_template("user_profile.html")
 
 # Sample HTML template for user profile can be created as 'templates/user_profile.html'
+
+@app.route("/dashboard", methods=["GET"])
+def dashboard():
+    # Sample data for demonstration; in a real application, this will be fetched from the database or API
+    sample_data = {
+        "temperature": [32, 45, 50, 38, 43],
+        "humidity": [80, 60, 75, 90, 85]
+    }
+    
+    # Render dashboard template and pass in the sample data
+    return render_template("dashboard.html", data=sample_data)
+
+# Sample HTML template for the dashboard can be created as 'templates/dashboard.html'
