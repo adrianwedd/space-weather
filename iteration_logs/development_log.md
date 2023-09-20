@@ -473,3 +473,21 @@
 ### Insights
 - A well-structured and prioritized task list serves as a roadmap for development, ensuring that efforts are directed towards the most impactful features.
 
+
+## Iteration 43: Implementing Real-time Data Visualization Dashboard
+
+### Observations
+- Added a sample method for implementing a real-time data visualization dashboard in `app.py`.
+
+### Insights
+- Real-time data visualization is critical for monitoring space weather metrics. A well-designed dashboard can significantly enhance user engagement.
+
+
+## Iteration 44: Optimizing Data Collection and API Integration
+
+### Observations
+- Created `data_collection.py` and added a sample method for batch data retrieval to minimize API requests.
+
+### Insights
+- Batch data retrieval can significantly optimize the efficiency and responsiveness of the application.
+
