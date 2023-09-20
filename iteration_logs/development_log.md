@@ -173,3 +173,12 @@
 ### Insights
 - A well-documented Deployment Guide is essential for facilitating the deployment process and ensuring a successful launch.
 
+
+## Iteration 14: Implementing Additional Features
+
+### Observations
+- Added a feature to log API call errors in the `get_a_index` function of `data_retrieval.py`.
+
+### Insights
+- Logging API errors will aid in monitoring and troubleshooting, making the application more robust and maintainable.
+

@@ -82,3 +82,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 13 - Preparing for Deployment
 - Created a Deployment Guide to facilitate the application's deployment process.
 
+
+## Iteration 14 - Implementing Additional Features
+- Added error logging for API calls in the `get_a_index` function.
+
