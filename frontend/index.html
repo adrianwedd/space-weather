@@ -113,3 +113,33 @@
         }
     }
 </script>
+
+<!-- Sample Data Visualization Dashboard using Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div id="dashboard">
+    <canvas id="myChart"></canvas>
+</script>
+    <script>
+        const ctx = document.getElementById('myChart').getContext('2d');
+        const myChart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May'],
+                datasets: [{
+                    label: 'A-index',
+                    data: [12, 19, 3, 5, 2],
+                    backgroundColor: 'rgba(75, 192, 192, 0.2)',
+                    borderColor: 'rgba(75, 192, 192, 1)',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</div>

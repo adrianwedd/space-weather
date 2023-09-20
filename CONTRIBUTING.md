@@ -138,3 +138,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 27 - Implementing a Notification System
 - Updated the frontend with a sample method for implementing a notification system using JavaScript.
 
+
+## Iteration 28 - Implementing a Data Visualization Dashboard
+- Updated the frontend with a sample data visualization dashboard using Chart.js.
+
