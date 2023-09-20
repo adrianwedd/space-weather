@@ -500,3 +500,12 @@
 ### Insights
 - Two-factor authentication can significantly enhance the security of the application, making it more resilient against unauthorized access.
 
+
+## Iteration 46: Implementing User-Specific Notification Settings for Email Notifications for Critical Events
+
+### Observations
+- Created `notifications.py` and added a sample method for managing user-specific notification settings.
+
+### Insights
+- Personalized notification settings empower users to take control of their own experience, making the application more user-centric.
+
