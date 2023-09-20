@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space Weather Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <header><!-- TODO: Review this HTML element for semantic and accessibility improvements. -->
+        <h1>Space Weather Dashboard</h1>
+    </header>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    <footer><!-- TODO: Review this HTML element for semantic and accessibility improvements. -->
+        <p>© 2023 Space Weather Dashboard</p>
+    </footer>
+    <script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</body>
+</html>
