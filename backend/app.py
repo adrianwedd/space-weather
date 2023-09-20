@@ -112,3 +112,18 @@ def set_preferences():
     db.session.add(new_preference)
     db.session.commit()
     return jsonify({'message': 'Preferences set successfully!'})
+
+from flask_caching import Cache
+
+cache = Cache(app, config={'CACHE_TYPE': 'simple'})
+
+@cache.cached(timeout=50)
+@app.route('/cached_weather', methods=['GET'])
+def fetch_cached_weather_data():
+    # Sample space weather data (In a real application, this data would be fetched from a database or API)
+    sample_data = {
+        "solar_flux": 140,
+        "geomagnetic_a_index": 10,
+        "solar_wind_speed": 460
+    }
+    return jsonify(sample_data)
