@@ -341,3 +341,12 @@
 ### Insights
 - Data visualization provides users with a more intuitive understanding of complex data, enhancing the overall experience.
 
+
+## Iteration 29: Implementing User Authentication
+
+### Observations
+- Updated the `app.py` file to include a sample method for implementing user authentication using Flask and SQLite.
+
+### Insights
+- Implementing user authentication is critical for securing the application and personalizing the user experience.
+
