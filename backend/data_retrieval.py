@@ -156,3 +156,16 @@ def get_a_index():
         
     except Exception as e:
         logging.error(f'Error in get_a_index: {e}')
+
+from flask_caching import Cache
+
+# Initialize cache
+cache = Cache(config={'CACHE_TYPE': 'simple'})
+
+@app.route('/api/a_index')
+@cache.cached(timeout=60)
+def get_cached_a_index():
+    # The actual implementation of getting A-index would go here
+    # For demonstration, let's assume we get some data
+    a_index_data = {'a_index': 12, 'timestamp': '2023-09-20T12:34:56'}
+    return jsonify(a_index_data)

@@ -296,3 +296,12 @@
 ### Insights
 - Role-based authentication can provide a granular control over access to different parts of the application.
 
+
+## Iteration 24: Implementing Caching Mechanism
+
+### Observations
+- Updated the `data_retrieval.py` file to include a sample method for caching API responses.
+
+### Insights
+- Implementing a caching mechanism can significantly optimize the performance of API calls.
+

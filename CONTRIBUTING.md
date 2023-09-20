@@ -122,3 +122,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 23 - Extending User Authentication
 - Updated the backend with a sample method for role-based user authentication.
 
+
+## Iteration 24 - Implementing Caching Mechanism
+- Updated the backend with a sample method for caching API responses using Flask-Caching.
+
