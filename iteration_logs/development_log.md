@@ -164,3 +164,12 @@
 ### Insights
 - Unit tests are crucial for validating the functionality and robustness of backend functions.
 
+
+## Iteration 13: Preparing for Deployment
+
+### Observations
+- Created a Deployment Guide outlining the steps required to deploy the application.
+
+### Insights
+- A well-documented Deployment Guide is essential for facilitating the deployment process and ensuring a successful launch.
+
