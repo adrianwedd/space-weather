@@ -141,3 +141,17 @@ def handle_connection():
         "solar_wind_speed": 480
     }
     socketio.emit('weather_update', sample_data)
+
+@app.route('/dashboard', methods=['GET'])
+def dashboard():
+    return render_template('dashboard.html')
+
+@socketio.on('request_update')
+def handle_request_update():
+    # Sample space weather data (In a real application, this data would be fetched from a database or API)
+    sample_data = {
+        "solar_flux": 150,
+        "geomagnetic_a_index": 8,
+        "solar_wind_speed": 490
+    }
+    socketio.emit('dashboard_update', sample_data)

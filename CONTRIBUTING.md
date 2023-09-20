@@ -166,3 +166,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 34 - Implementing Real-time Data Updates Using WebSockets
 - Updated the backend with a sample method for implementing real-time data updates using Flask-SocketIO.
 
+
+## Iteration 35 - Implementing a Dashboard for Real-time Data Visualization
+- Updated the backend with a sample method for implementing a dashboard for real-time data visualization.
+
