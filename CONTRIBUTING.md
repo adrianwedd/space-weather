@@ -94,3 +94,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 16 - Implementing Data Caching
 - Added data caching to the `get_a_index` function using a simple dictionary for caching API responses.
 
+
+## Iteration 17 - Adding User Authentication
+- Outlined a user authentication method using Flask and Flask-Login in `app.py`.
+

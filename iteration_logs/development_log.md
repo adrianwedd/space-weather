@@ -202,3 +202,13 @@
 ### Insights
 - Data caching can significantly reduce the number of API calls, improving performance and minimizing latency.
 
+
+## Iteration 17: Adding User Authentication
+
+### Observations
+- Outlined a potential user authentication method using Flask and Flask-Login in `app.py`.
+- Added a sample protected route requiring login.
+
+### Insights
+- User authentication is a fundamental security feature for any web application, ensuring that only authorized users have access to certain functionalities.
+
