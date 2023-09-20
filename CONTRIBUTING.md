@@ -110,3 +110,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 20 - Increasing Test Coverage
 - Created a new test file and outlined a sample test case for the `get_a_index` function.
 
+
+## Iteration 21 - Investigating Data Persistence Options
+- Created a new Python file and outlined a sample method for data persistence using SQLite.
+
