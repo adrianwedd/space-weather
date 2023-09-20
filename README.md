@@ -16,7 +16,7 @@ The Space Weather Dashboard is an interactive platform designed to monitor, anal
 
 ## Getting Started
 
-To get the project up and running on your local machine, follow the instructions in [CONTRIBUTING.md](./CONTRIBUTING.md).
+To get the project up and running on your local machine, follow the Deployment Guide.
 
 ## Contribution
 
