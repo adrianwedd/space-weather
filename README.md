@@ -1,85 +1,28 @@
 
-## Updated Task List
+# Space Weather Dashboard
 
-1. Data Collection and API Integration
-2. Database Setup and Data Storage
-3. User Registration and Login
-4. Real-time Data Visualization Dashboard
-5. Email Notifications for Critical Events
-6. Data Analysis and Predictive Modelling
-7. User Profile and Preferences
-8. Mobile Application Development
-9. Testing and Quality Assurance
-10. Documentation and Code Review
+## Overview
 
-## Completed Tasks
+The Space Weather Dashboard is an interactive platform designed to monitor, analyze, and visualize space weather conditions in real-time. This dashboard aims to provide a comprehensive tool for researchers, academicians, and enthusiasts who are interested in understanding the dynamic nature of space weather and its impact on Earth.
 
-1. Data Collection and API Integration
-2. Database Setup and Data Storage
-3. User Registration and Login (Partially)
-4. Real-time Data Visualization Dashboard (Partially)
-5. Email Notifications for Critical Events (Partially)
+## Features
 
+- **Real-Time Monitoring**: Fetches and displays real-time space weather data.
+- **Data Visualization**: Offers various data visualization tools to interpret complex space weather parameters.
+- **Notifications**: Sends notifications for critical events and anomalies.
+- **Data Archival**: Provides long-term storage and retrieval functionalities for historical data.
+- **User-Centric Design**: Offers personalized settings, including user-specific notification preferences.
+- **Accessibility**: Built with a focus on making the dashboard accessible to a broad range of users.
 
-## Detailed and Prioritized Task List
+## Getting Started
 
-### High Priority
+To get the project up and running on your local machine, follow the instructions in [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-1. **Real-time Data Visualization Dashboard**
-    - Implement widgets for displaying real-time metrics
-    - Develop interactivity features for the widgets
-    - Add options for customizing the dashboard layout
+## Contribution
 
-2. **Data Collection and API Integration**
-    - Optimize data retrieval algorithms for efficiency
-    - Implement additional error-handling mechanisms
-    - Support for multiple data sources
+For details on how to contribute to this project, please read [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-3. **User Registration and Login**
-    - Improve security measures (e.g., two-factor authentication)
-    - Add social media login options
-    - Implement session management
+## License
 
-4. **Email Notifications for Critical Events**
-    - Implement user-specific notification settings
-    - Add SMS notification options
-    - Improve email templates with dynamic content
+This project is licensed under the MIT License.
 
-5. **Data Analysis and Predictive Modeling**
-    - Develop machine learning models for predictive analytics
-    - Implement real-time data analysis features
-    - Add capabilities for historical data analysis
-
-### Medium Priority
-
-6. **User Profile and Preferences**
-    - Implement user avatars and profile customization
-    - Add options for data privacy settings
-    - Develop features for managing notifications
-
-7. **Database Setup and Data Storage**
-    - Implement data archiving and backup options
-    - Improve database indexing for faster queries
-    - Add support for scalable storage solutions
-
-8. **Testing and Quality Assurance**
-    - Develop automated testing scripts
-    - Implement continuous integration pipelines
-    - Perform stress and scalability tests
-
-9. **Mobile Application Development**
-    - Develop mobile-friendly user interfaces
-    - Implement native mobile applications
-    - Optimize for various screen sizes
-
-10. **Documentation and Code Review**
-    - Develop comprehensive user guides
-    - Implement inline code documentation standards
-    - Periodically review and refactor code
-
-### Low Priority
-
-11. **Community and Open Source Engagement**
-    - Develop a community forum for user discussions
-    - Implement features for open-source contributions
-    - Create educational resources for the community
