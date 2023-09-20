@@ -87,3 +87,13 @@ def error_route():
     except ZeroDivisionError as e:
         logging.error(f"An error occurred: {e}")
         return jsonify({'error': 'An error occurred'}), 500
+
+@app.route('/weather', methods=['GET'])
+def fetch_weather_data():
+    # Sample space weather data (In a real application, this data would be fetched from a database or API)
+    sample_data = {
+        "solar_flux": 130,
+        "geomagnetic_a_index": 12,
+        "solar_wind_speed": 450
+    }
+    return jsonify(sample_data)

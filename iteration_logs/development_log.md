@@ -359,3 +359,12 @@
 ### Insights
 - Effective error logging and monitoring are indispensable for diagnosing issues and ensuring the reliability of the application.
 
+
+## Iteration 31: Implementing a RESTful API for Fetching Space Weather Data
+
+### Observations
+- Updated the `app.py` file to include a sample RESTful API for fetching space weather data.
+
+### Insights
+- The RESTful API allows the frontend to fetch real-time data, thereby enhancing the application's utility and user engagement.
+
