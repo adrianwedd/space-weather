@@ -377,3 +377,12 @@
 ### Insights
 - Implementing a system for user preferences adds another layer of personalization, enhancing the user experience.
 
+
+## Iteration 33: Implementing a Caching Mechanism for Space Weather Data
+
+### Observations
+- Updated the `app.py` file to include a sample method for implementing a caching mechanism for space weather data using Flask-Caching.
+
+### Insights
+- Implementing a caching mechanism can significantly improve the application's performance by reducing redundant database or API calls.
+

@@ -158,3 +158,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 32 - Implementing a System for User Preferences
 - Updated the backend with a sample method for managing user preferences using Flask and SQLite.
 
+
+## Iteration 33 - Implementing a Caching Mechanism for Space Weather Data
+- Updated the backend with a sample method for implementing a caching mechanism for space weather data using Flask-Caching.
+
