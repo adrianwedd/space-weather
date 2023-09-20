@@ -368,3 +368,12 @@
 ### Insights
 - The RESTful API allows the frontend to fetch real-time data, thereby enhancing the application's utility and user engagement.
 
+
+## Iteration 32: Implementing a System for User Preferences
+
+### Observations
+- Updated the `app.py` file to include a sample method for managing user preferences using Flask and SQLite.
+
+### Insights
+- Implementing a system for user preferences adds another layer of personalization, enhancing the user experience.
+

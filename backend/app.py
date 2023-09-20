@@ -97,3 +97,18 @@ def fetch_weather_data():
         "solar_wind_speed": 450
     }
     return jsonify(sample_data)
+
+class Preference(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+    theme = db.Column(db.String(80), nullable=True)
+
+@app.route('/preferences', methods=['POST'])
+def set_preferences():
+    data = request.get_json()
+    user_id = data['user_id']
+    theme = data['theme']
+    new_preference = Preference(user_id=user_id, theme=theme)
+    db.session.add(new_preference)
+    db.session.commit()
+    return jsonify({'message': 'Preferences set successfully!'})

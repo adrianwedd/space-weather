@@ -154,3 +154,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 31 - Implementing a RESTful API for Fetching Space Weather Data
 - Updated the backend with a sample RESTful API for fetching space weather data.
 
+
+## Iteration 32 - Implementing a System for User Preferences
+- Updated the backend with a sample method for managing user preferences using Flask and SQLite.
+
