@@ -22,3 +22,15 @@ This project aims to develop a comprehensive web application for monitoring vari
 
 ## Iteration 4 Preparations
 - Added a `requirements.txt` in the backend directory for managing Python package dependencies.
+
+## Observations
+
+(Placeholder for observations about the project)
+
+## Insights
+
+(Placeholder for insights gained during the development)
+
+## Iterations
+
+(Placeholder for discussing various development iterations)
