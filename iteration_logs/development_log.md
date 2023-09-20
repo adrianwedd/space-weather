@@ -491,3 +491,12 @@
 ### Insights
 - Batch data retrieval can significantly optimize the efficiency and responsiveness of the application.
 
+
+## Iteration 45: Improving Security Measures in User Registration and Login
+
+### Observations
+- Created `authentication.py` and added a sample method for implementing two-factor authentication.
+
+### Insights
+- Two-factor authentication can significantly enhance the security of the application, making it more resilient against unauthorized access.
+
