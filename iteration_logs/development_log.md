@@ -437,3 +437,12 @@
 - Conducted a rudimentary review of the code to check for glaring errors or issues.
 - Scanned for common Python syntax errors like undefined variables, import errors, etc.
 
+
+## Iteration 39: Updating Task List and README.md
+
+### Observations
+- Updated the task list and README.md to reflect the current state and priorities of the project.
+
+### Insights
+- Keeping documentation like the task list and README.md up to date is vital for aligning the development efforts and for clarity.
+
