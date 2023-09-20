@@ -258,3 +258,13 @@
 ### Insights
 - Data validation is crucial for ensuring the integrity and reliability of the data being processed.
 
+
+## Iteration 20: Increasing Test Coverage
+
+### Observations
+- Created a new test file `test_data_retrieval.py` in the backend tests folder.
+- Outlined a sample test case for the `get_a_index` function.
+
+### Insights
+- Comprehensive test coverage is essential for ensuring the robustness and reliability of the application.
+
