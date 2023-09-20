@@ -386,3 +386,12 @@
 ### Insights
 - Implementing a caching mechanism can significantly improve the application's performance by reducing redundant database or API calls.
 
+
+## Iteration 34: Implementing Real-time Data Updates Using WebSockets
+
+### Observations
+- Updated the `app.py` file to include a sample method for implementing real-time data updates using Flask-SocketIO.
+
+### Insights
+- Real-time data updates are crucial for keeping the user engaged and providing them with the most current information.
+

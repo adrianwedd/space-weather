@@ -127,3 +127,17 @@ def fetch_cached_weather_data():
         "solar_wind_speed": 460
     }
     return jsonify(sample_data)
+
+from flask_socketio import SocketIO
+
+socketio = SocketIO(app)
+
+@socketio.on('connect')
+def handle_connection():
+    # Sample space weather data (In a real application, this data would be fetched from a database or API)
+    sample_data = {
+        "solar_flux": 145,
+        "geomagnetic_a_index": 9,
+        "solar_wind_speed": 480
+    }
+    socketio.emit('weather_update', sample_data)
