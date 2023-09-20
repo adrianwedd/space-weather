@@ -287,3 +287,30 @@
 ### Insights
 - Advanced data visualization features can enhance the user experience and provide deeper insights into the data.
 
+
+## Iteration 23: Extending User Authentication
+
+### Observations
+- Updated the `app.py` file to include a sample method for role-based user authentication.
+
+### Insights
+- Role-based authentication can provide a granular control over access to different parts of the application.
+
+
+## Iteration 24: Implementing Caching Mechanism
+
+### Observations
+- Updated the `data_retrieval.py` file to include a sample method for caching API responses.
+
+### Insights
+- Implementing a caching mechanism can significantly optimize the performance of API calls.
+
+
+## Iteration 25: Adding Internationalization Support
+
+### Observations
+- Updated the `index.html` file to include a sample method for adding internationalization (i18n) support.
+
+### Insights
+- Internationalization is crucial for making the application accessible to a global audience.
+

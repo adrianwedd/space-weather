@@ -22,3 +22,34 @@ def protected_route():
     return 'You are viewing a protected page'
 
 # TODO: Implement actual user authentication logic
+
+from flask_login import UserMixin
+
+class User(UserMixin):
+    def __init__(self, id, role):
+        self.id = id
+        self.role = role
+
+    def has_role(self, role):
+        return self.role == role
+
+# Sample user data
+users = {'admin': User(id='admin', role='admin'), 'user': User(id='user', role='user')}
+
+@login_manager.user_loader
+def load_user(user_id):
+    return users.get(user_id)
+
+@app.route('/admin')
+@login_required
+def admin():
+    if not current_user.has_role('admin'):
+        return 'Access forbidden: insufficient permissions', 403
+    return 'Welcome, admin'
+
+@app.route('/user')
+@login_required
+def user():
+    if not current_user.has_role('user'):
+        return 'Access forbidden: insufficient permissions', 403
+    return 'Welcome, user'
