@@ -177,3 +177,16 @@ security = Security(app, user_datastore)
 @login_required
 def protected():
     return 'Logged in as: ' + current_user.email
+
+from flask_mail import Mail, Message
+
+mail = Mail(app)
+
+@app.route('/send_notification', methods=['POST'])
+def send_notification():
+    msg = Message("Critical Space Weather Event",
+                  sender="noreply@spaceweatherapp.com",
+                  recipients=["user@example.com"])
+    msg.body = "A critical space weather event has been detected. Please take necessary precautions."
+    mail.send(msg)
+    return 'Notification sent!'

@@ -413,3 +413,12 @@
 ### Insights
 - Implementing a robust user authentication system is critical for ensuring the security and privacy of the users.
 
+
+## Iteration 37: Implementing Email Notifications for Critical Space Weather Events
+
+### Observations
+- Updated the `app.py` file to include a sample method for implementing email notifications for critical space weather events using Flask-Mail.
+
+### Insights
+- Email notifications serve as an immediate and effective way to alert users about critical events, enhancing the application's utility.
+
