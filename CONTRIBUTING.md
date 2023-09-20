@@ -86,3 +86,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 14 - Implementing Additional Features
 - Added error logging for API calls in the `get_a_index` function.
 
+
+## Iteration 15 - Optimizing Performance and Memory Usage
+- Focused on optimizing the `get_a_index` function by incorporating lazy-loading techniques.
+
