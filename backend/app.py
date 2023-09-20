@@ -190,3 +190,14 @@ def send_notification():
     msg.body = "A critical space weather event has been detected. Please take necessary precautions."
     mail.send(msg)
     return 'Notification sent!'
+
+@app.route("/user_profile", methods=["GET", "POST"])
+def user_profile():
+    if request.method == "POST":
+        # Update user profile preferences here
+        pass
+    
+    # Render user profile template
+    return render_template("user_profile.html")
+
+# Sample HTML template for user profile can be created as 'templates/user_profile.html'

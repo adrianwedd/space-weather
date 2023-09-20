@@ -203,3 +203,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 40 - Implementing Data Analysis and Predictive Modeling Features
 - Created a sample Python file for implementing basic data analysis features.
 
+
+## Iteration 41 - Implementing User Profile and Preferences Features
+- Added a sample method in `app.py` to outline features for user profile and preferences.
+
