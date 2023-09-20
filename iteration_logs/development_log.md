@@ -154,3 +154,13 @@
 ### Insights
 - Placeholder implementations serve as markers that guide future development. Detailed inline comments provide a roadmap for completing these implementations.
 
+
+## Iteration 12: Writing Unit Tests
+
+### Observations
+- Initiated the process of writing unit tests for backend functions.
+- Created a sample unit test for the `get_a_index` function in `data_retrieval.py`.
+
+### Insights
+- Unit tests are crucial for validating the functionality and robustness of backend functions.
+

@@ -74,3 +74,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 11 - Backend Placeholder Implementations
 - Identified and started refining placeholder implementations in the backend Python files.
 
+
+## Iteration 12 - Writing Unit Tests
+- Initiated the process of writing unit tests by creating a sample for the `get_a_index` function in `data_retrieval.py`.
+
