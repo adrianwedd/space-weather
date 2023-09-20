@@ -227,3 +227,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 46 - Implementing User-Specific Notification Settings for Email Notifications for Critical Events
 - Created a new file `notifications.py` and outlined methods for managing user-specific notification settings.
 
+
+## Iteration 47 - Implementing Data Archival and Retrieval Functionalities for Long-Term Data Storage
+- Created a new file `data_archival.py` and outlined methods for archiving and retrieving long-term data.
+
