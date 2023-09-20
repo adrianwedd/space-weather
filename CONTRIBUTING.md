@@ -174,3 +174,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 36 - Implementing a User Authentication System
 - Updated the backend with a sample method for implementing a user authentication system using Flask-Security.
 
+
+## Iteration 37 - Implementing Email Notifications for Critical Space Weather Events
+- Updated the backend with a sample method for implementing email notifications for critical space weather events using Flask-Mail.
+
