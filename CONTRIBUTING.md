@@ -126,3 +126,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 24 - Implementing Caching Mechanism
 - Updated the backend with a sample method for caching API responses using Flask-Caching.
 
+
+## Iteration 25 - Adding Internationalization Support
+- Updated the frontend with a sample method for adding internationalization (i18n) support.
+

@@ -305,3 +305,12 @@
 ### Insights
 - Implementing a caching mechanism can significantly optimize the performance of API calls.
 
+
+## Iteration 25: Adding Internationalization Support
+
+### Observations
+- Updated the `index.html` file to include a sample method for adding internationalization (i18n) support.
+
+### Insights
+- Internationalization is crucial for making the application accessible to a global audience.
+

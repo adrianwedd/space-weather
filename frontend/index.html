@@ -56,3 +56,23 @@
         .attr("stroke-width", 2)
         .attr("fill", "none");
 </script>
+
+<!-- Sample Internationalization (i18n) Support -->
+<script>
+    const i18n = {
+        "en": {
+            "welcome": "Welcome",
+            "data": "Data"
+        },
+        "fr": {
+            "welcome": "Bienvenue",
+            "data": "Données"
+        }
+    };
+
+    const userLang = navigator.language || navigator.userLanguage;
+    const lang = userLang.split('-')[0];
+
+    document.getElementById("welcome-text").textContent = i18n[lang].welcome || i18n["en"].welcome;
+    document.getElementById("data-text").textContent = i18n[lang].data || i18n["en"].data;
+</script>
