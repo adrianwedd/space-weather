@@ -404,3 +404,12 @@
 ### Insights
 - The dashboard will serve as a central hub for data visualization, making it easier for users to comprehend and analyze space weather data.
 
+
+## Iteration 36: Implementing a User Authentication System
+
+### Observations
+- Updated the `app.py` file to include a sample method for implementing a user authentication system using Flask-Security.
+
+### Insights
+- Implementing a robust user authentication system is critical for ensuring the security and privacy of the users.
+
