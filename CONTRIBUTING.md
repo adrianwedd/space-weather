@@ -215,3 +215,11 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 43 - Implementing Real-time Data Visualization Dashboard
 - Added a sample method in `app.py` to outline features for real-time data visualization dashboard.
 
+
+## Iteration 44 - Optimizing Data Collection and API Integration
+- Created a new file `data_collection.py` and outlined a method for batch data retrieval.
+
+
+## Iteration 45 - Improving Security Measures in User Registration and Login
+- Created a new file `authentication.py` and outlined methods for implementing two-factor authentication.
+
