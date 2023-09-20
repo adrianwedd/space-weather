@@ -395,3 +395,12 @@
 ### Insights
 - Real-time data updates are crucial for keeping the user engaged and providing them with the most current information.
 
+
+## Iteration 35: Implementing a Dashboard for Real-time Data Visualization
+
+### Observations
+- Updated the `app.py` file to include a sample method for implementing a dashboard for real-time data visualization.
+
+### Insights
+- The dashboard will serve as a central hub for data visualization, making it easier for users to comprehend and analyze space weather data.
+
