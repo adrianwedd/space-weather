@@ -28,3 +28,41 @@ This project aims to develop a comprehensive web application for monitoring vari
 
 ## Iteration 4 Preparations
 - Added a `requirements.txt` in the backend directory for managing Python package dependencies.
+
+## Revised Task List
+1. Backend Data Wrapping: Convert existing Python scripts for data fetching into callable functions and modules.
+2. Backend API Development: Create Flask routes to serve as API endpoints for the frontend to access backend data.
+3. Frontend Data Fetching: Implement AJAX or Fetch API calls in JavaScript to retrieve data from backend API endpoints.
+4. Frontend Design Overhaul: Evaluate and potentially adopt a frontend framework like React or Vue.js for a more responsive design.
+5. Search and Filter Functionality: Add frontend features to enable data searching and filtering.
+6. Data Visualization: Implement interactive charts and graphs using libraries such as D3.js or Chart.js.
+7. Error Handling and Validations: Add necessary validations and error-handling both on the frontend and backend.
+8. Documentation and Comments: Keep README.md, development_log.md, and CONTRIBUTING.md updated. Add inline comments and function docstrings in the code.
+9. Testing: Develop a testing strategy including unit tests for backend and frontend, and outline steps for user acceptance testing.
+10. Deployment: Prepare the codebase for deployment, ensuring best practices in security and performance.
+
+## Iteration 4 - Manual Code Inspection Update (Frontend)
+- Conducted a meticulous manual inspection of frontend files (HTML, CSS, JavaScript).
+- Added inline TODO comments to highlight areas requiring further development or optimization.
+
+## Iteration 5 - Backend Data Wrapping
+- Identified `data_retrieval.py` as the primary backend file for data fetching.
+- Outlined subtasks including function wrapping, modularization, API key management, and error handling.
+
+
+## Iteration 6 - Function Wrapping
+- Created `modularized_data_retrieval.py` to host modular functions for data retrieval.
+- Implemented a skeleton function for API data fetching.
+
+
+## Iteration 7 - Backend Modularization
+- Created three new Python modules to better organize backend functionalities.
+
+
+## Iteration 8 - Secure API Key Management
+- Enhanced security by fetching the API key from an environment variable in `modularized_data_retrieval.py`.
+
+
+## Iteration 9 - Error Handling and Logging
+- Implemented basic error handling and logging in `modularized_data_retrieval.py`.
+
