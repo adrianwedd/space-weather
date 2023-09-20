@@ -350,3 +350,21 @@
 ### Insights
 - Implementing user authentication is critical for securing the application and personalizing the user experience.
 
+
+## Iteration 30: Implementing Error Logging and Monitoring
+
+### Observations
+- Updated the `app.py` file to include a sample method for implementing error logging and monitoring using Python's logging module.
+
+### Insights
+- Effective error logging and monitoring are indispensable for diagnosing issues and ensuring the reliability of the application.
+
+
+## Iteration 31: Implementing a RESTful API for Fetching Space Weather Data
+
+### Observations
+- Updated the `app.py` file to include a sample RESTful API for fetching space weather data.
+
+### Insights
+- The RESTful API allows the frontend to fetch real-time data, thereby enhancing the application's utility and user engagement.
+

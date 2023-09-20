@@ -146,3 +146,11 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 29 - Implementing User Authentication
 - Updated the backend with a sample method for implementing user authentication using Flask and SQLite.
 
+
+## Iteration 30 - Implementing Error Logging and Monitoring
+- Updated the backend with a sample method for implementing error logging and monitoring using Python's logging module.
+
+
+## Iteration 31 - Implementing a RESTful API for Fetching Space Weather Data
+- Updated the backend with a sample RESTful API for fetching space weather data.
+
