@@ -102,3 +102,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 18 - Adding User Interface for Data Visualization
 - Added a simple UI component outline for data visualization in `index.html`.
 
+
+## Iteration 19 - Implementing Data Validation
+- Added data validation to the `get_a_index` function using simple if-else checks.
+

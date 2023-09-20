@@ -141,3 +141,18 @@ def get_a_index():
         
     except Exception as e:
         logging.error(f'Error in get_a_index: {e}')
+
+def get_a_index():
+    try:
+        # TODO: Actual API call logic will go here.
+        # api_response = ...
+
+        # Data validation using simple if-else checks
+        if api_response and 'a_index' in api_response:
+            # Store the validated response in api_cache
+            api_cache['a_index'] = api_response['a_index']
+        else:
+            logging.error('Invalid API response in get_a_index')
+        
+    except Exception as e:
+        logging.error(f'Error in get_a_index: {e}')
