@@ -223,3 +223,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 45 - Improving Security Measures in User Registration and Login
 - Created a new file `authentication.py` and outlined methods for implementing two-factor authentication.
 
+
+## Iteration 46 - Implementing User-Specific Notification Settings for Email Notifications for Critical Events
+- Created a new file `notifications.py` and outlined methods for managing user-specific notification settings.
+
