@@ -98,3 +98,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 17 - Adding User Authentication
 - Outlined a user authentication method using Flask and Flask-Login in `app.py`.
 
+
+## Iteration 18 - Adding User Interface for Data Visualization
+- Added a simple UI component outline for data visualization in `index.html`.
+
