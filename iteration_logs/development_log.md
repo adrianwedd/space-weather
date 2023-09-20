@@ -182,3 +182,13 @@
 ### Insights
 - Logging API errors will aid in monitoring and troubleshooting, making the application more robust and maintainable.
 
+
+## Iteration 15: Optimizing Performance and Memory Usage
+
+### Observations
+- Focused on optimizing the `get_a_index` function in `data_retrieval.py`.
+- Incorporated lazy-loading techniques to reduce memory usage.
+
+### Insights
+- Performance and memory optimization are key factors in building scalable and efficient applications.
+
