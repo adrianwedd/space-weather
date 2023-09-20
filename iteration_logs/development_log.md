@@ -287,3 +287,12 @@
 ### Insights
 - Advanced data visualization features can enhance the user experience and provide deeper insights into the data.
 
+
+## Iteration 23: Extending User Authentication
+
+### Observations
+- Updated the `app.py` file to include a sample method for role-based user authentication.
+
+### Insights
+- Role-based authentication can provide a granular control over access to different parts of the application.
+

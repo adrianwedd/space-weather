@@ -118,3 +118,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 22 - Adding Advanced Visualization Features
 - Updated the frontend with a sample D3.js line chart to outline advanced visualization capabilities.
 
+
+## Iteration 23 - Extending User Authentication
+- Updated the backend with a sample method for role-based user authentication.
+
