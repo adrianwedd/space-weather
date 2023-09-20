@@ -162,3 +162,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 33 - Implementing a Caching Mechanism for Space Weather Data
 - Updated the backend with a sample method for implementing a caching mechanism for space weather data using Flask-Caching.
 
+
+## Iteration 34 - Implementing Real-time Data Updates Using WebSockets
+- Updated the backend with a sample method for implementing real-time data updates using Flask-SocketIO.
+
