@@ -257,3 +257,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 53 - Implementing User-Specific Notification Preferences
 - Updated `notifications.py` to add a sample Python function for managing user-specific notifications.
 
+
+## Iteration 54 - Implementing Long-Term Data Storage and Retrieval
+- Updated `data_archival.py` to add sample Python functions for long-term data storage and retrieval.
+
