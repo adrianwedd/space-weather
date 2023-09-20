@@ -253,3 +253,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 52 - Implementing Multilingual Support
 - Updated `index.html` to add a sample JavaScript code for managing language selection as a step towards implementing multilingual support.
 
+
+## Iteration 53 - Implementing User-Specific Notification Preferences
+- Updated `notifications.py` to add a sample Python function for managing user-specific notifications.
+
