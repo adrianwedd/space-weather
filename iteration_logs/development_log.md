@@ -323,3 +323,12 @@
 ### Insights
 - Providing user-specific customization options enhances user engagement and personalizes the application experience.
 
+
+## Iteration 27: Implementing a Notification System
+
+### Observations
+- Updated the `index.html` file to include a sample method for implementing a notification system using JavaScript.
+
+### Insights
+- Notifications serve as an effective way to alert users about significant events, enhancing user engagement and the overall experience.
+

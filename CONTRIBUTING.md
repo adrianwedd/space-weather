@@ -134,3 +134,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 26 - Implementing User Preferences and Settings
 - Updated the frontend with a sample method for implementing user preferences and settings using local storage.
 
+
+## Iteration 27 - Implementing a Notification System
+- Updated the frontend with a sample method for implementing a notification system using JavaScript.
+

@@ -95,3 +95,21 @@
         document.body.style.backgroundColor = userPrefs.backgroundColor;
     }
 </script>
+
+<!-- Sample Notification System -->
+<script>
+    // Sample function to show notifications
+    function showNotification(title, message) {
+        if (!("Notification" in window)) {
+            alert("This browser does not support desktop notifications");
+        } else if (Notification.permission === "granted") {
+            const notification = new Notification(title, { body: message });
+        } else if (Notification.permission !== "denied") {
+            Notification.requestPermission().then(permission => {
+                if (permission === "granted") {
+                    const notification = new Notification(title, { body: message });
+                }
+            });
+        }
+    }
+</script>
