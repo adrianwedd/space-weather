@@ -76,3 +76,22 @@
     document.getElementById("welcome-text").textContent = i18n[lang].welcome || i18n["en"].welcome;
     document.getElementById("data-text").textContent = i18n[lang].data || i18n["en"].data;
 </script>
+
+<!-- Sample User Preferences and Settings using Local Storage -->
+<script>
+    // Check if user preferences exist in local storage
+    if (localStorage.getItem('userPrefs')) {
+        const userPrefs = JSON.parse(localStorage.getItem('userPrefs'));
+        // Apply user preferences
+        document.body.style.backgroundColor = userPrefs.backgroundColor;
+    }
+
+    // Sample function to update user preferences
+    function updateUserPrefs() {
+        const userPrefs = {
+            backgroundColor: '#f0f0f0'
+        };
+        localStorage.setItem('userPrefs', JSON.stringify(userPrefs));
+        document.body.style.backgroundColor = userPrefs.backgroundColor;
+    }
+</script>

@@ -130,3 +130,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 25 - Adding Internationalization Support
 - Updated the frontend with a sample method for adding internationalization (i18n) support.
 
+
+## Iteration 26 - Implementing User Preferences and Settings
+- Updated the frontend with a sample method for implementing user preferences and settings using local storage.
+
