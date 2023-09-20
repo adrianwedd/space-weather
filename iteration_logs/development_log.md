@@ -268,3 +268,13 @@
 ### Insights
 - Comprehensive test coverage is essential for ensuring the robustness and reliability of the application.
 
+
+## Iteration 21: Investigating Data Persistence Options
+
+### Observations
+- Created a new Python file `data_persistence.py` in the backend folder.
+- Outlined a sample method for data persistence using SQLite.
+
+### Insights
+- Data persistence is vital for storing and retrieving historical data, thus enhancing the application's utility.
+
