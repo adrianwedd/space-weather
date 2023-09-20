@@ -249,3 +249,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 - Conducted a code review to identify errors and placeholder implementations.
 - Updated `README.md` to make it more informative.
 
+
+## Iteration 52 - Implementing Multilingual Support
+- Updated `index.html` to add a sample JavaScript code for managing language selection as a step towards implementing multilingual support.
+
