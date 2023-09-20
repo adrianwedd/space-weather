@@ -212,3 +212,12 @@
 ### Insights
 - User authentication is a fundamental security feature for any web application, ensuring that only authorized users have access to certain functionalities.
 
+
+## Iteration 18: Adding User Interface for Data Visualization
+
+### Observations
+- Outlined a simple UI component for data visualization in `index.html`.
+
+### Insights
+- A user-friendly interface for data visualization enhances the user experience and provides valuable insights into the data.
+
