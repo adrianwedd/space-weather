@@ -192,3 +192,13 @@
 ### Insights
 - Performance and memory optimization are key factors in building scalable and efficient applications.
 
+
+## Iteration 16: Implementing Data Caching
+
+### Observations
+- Added data caching functionality to the `get_a_index` function in `data_retrieval.py`.
+- Utilized a simple dictionary to cache API responses.
+
+### Insights
+- Data caching can significantly reduce the number of API calls, improving performance and minimizing latency.
+

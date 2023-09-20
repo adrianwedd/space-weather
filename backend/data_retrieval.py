@@ -126,3 +126,18 @@ def get_a_index():
         pass
     except Exception as e:
         logging.error(f'Error in get_a_index: {e}')
+
+# Simple dictionary to cache API responses
+api_cache = {}
+
+def get_a_index():
+    try:
+        # Check if data is already in cache
+        if 'a_index' in api_cache:
+            return api_cache['a_index']
+        
+        # TODO: Actual API call logic will go here. Store the response in api_cache.
+        # api_cache['a_index'] = api_response
+        
+    except Exception as e:
+        logging.error(f'Error in get_a_index: {e}')

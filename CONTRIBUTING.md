@@ -90,3 +90,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 15 - Optimizing Performance and Memory Usage
 - Focused on optimizing the `get_a_index` function by incorporating lazy-loading techniques.
 
+
+## Iteration 16 - Implementing Data Caching
+- Added data caching to the `get_a_index` function using a simple dictionary for caching API responses.
+
