@@ -78,3 +78,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 12 - Writing Unit Tests
 - Initiated the process of writing unit tests by creating a sample for the `get_a_index` function in `data_retrieval.py`.
 
+
+## Iteration 13 - Preparing for Deployment
+- Created a Deployment Guide to facilitate the application's deployment process.
+
