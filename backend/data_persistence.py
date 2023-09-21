@@ -1,6 +1,8 @@
 
 import sqlite3
 
+# TODO: Add a docstring to explain the purpose of this function.
+
 def initialize_db():
     # Connect to SQLite database
     conn = sqlite3.connect('space_weather.db')

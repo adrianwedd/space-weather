@@ -304,3 +304,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 1. **Backend**: Implement unit tests for newly added functionalities.
 2. **Frontend**: Validate visualizations and user interface through manual or automated testing.
 
+
+## Adding TODOs and Documentation
+- Always add a TODO comment for code sections that require future work.
+- Include detailed inline documentation for functions, methods, and complex code blocks.

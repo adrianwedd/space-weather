@@ -62,3 +62,6 @@ This guide outlines the steps required to deploy the Space Weather Dashboard, sp
 
 Refer to `TASK_LIST.md` and `iteration_logs` for detailed information on tasks completed and upcoming work.
 
+
+## Latest Updates
+- No new deployment steps as of the latest iteration.
