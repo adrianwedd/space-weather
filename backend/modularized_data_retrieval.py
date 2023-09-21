@@ -11,6 +11,8 @@ load_dotenv()
 # TODO: In this section, you need to securely manage the API key. Avoid hardcoding the API key directly into the code. Use Python's `os` library to read the key from environment variables. You can set the environment variable using `export API_KEY=your_actual_key` in a UNIX-like shell, or use similar methods for other operating systems.
 
 # Function to fetch data from a given API endpoint
+# TODO: Add a docstring to explain the purpose of this function.
+
 def fetch_data_from_api(api_endpoint):
 # TODO: In this section, you need to securely manage the API key. Avoid hardcoding the API key directly into the code. Use Python's `os` library to read the key from environment variables. You can set the environment variable using `export API_KEY=your_actual_key` in a UNIX-like shell, or use similar methods for other operating systems.
     response = requests.get(api_endpoint, headers=headers)
@@ -31,6 +33,8 @@ import logging
 # Configure logging
 logging.basicConfig(filename='backend_log.log', level=logging.INFO)
 
+
+# TODO: Add a docstring to explain the purpose of this function.
 # Updated function to fetch data from a given API endpoint with error handling
 def fetch_data_from_api_with_error_handling(api_endpoint):
     try:
