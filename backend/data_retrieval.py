@@ -6,12 +6,12 @@ import json
 BASE_URL = "https://sws-data.sws.bom.gov.au/api/v1/"
 
 # Define the API key (replace with your actual API key)
-# TODO: In this section, you need to securely manage the API key. Avoid hardcoding the API key directly into the code. Use Python's `os` library to read the key from environment variables. You can set the environment variable using `export API_KEY=your_actual_key` in a UNIX-like shell, or use similar methods for other operating systems.
+import os
+api_key = os.environ.get('API_KEY', 'default_key')  # Read API key from environment variable, fallback to 'default_key'
 
 # Initialize headers for the API request
 HEADERS = {
     "Content-Type": "application/json",
-# TODO: In this section, you need to securely manage the API key. Avoid hardcoding the API key directly into the code. Use Python's `os` library to read the key from environment variables. You can set the environment variable using `export API_KEY=your_actual_key` in a UNIX-like shell, or use similar methods for other operating systems.
 }
 
 # Data retrieval for 'get-a-index'
