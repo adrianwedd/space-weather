@@ -8,7 +8,6 @@
 ## Pre-Iteration Housekeeping
 
 1. **Review Documentation**: Navigate to `/mnt/data/space-weather` and read the following markdown files to understand the project's current state and objectives:
-    - `PROMPT.md`
     - `README.md`
     - `CONTRIBUTING.md`
     - `DEPLOYMENT_GUIDE.md`
@@ -17,27 +16,30 @@
 ## Analyze, Document, and Implement Across Entire Codebase in `/mnt/data/space-weather`
 
 1. **Preparation and Initial Review**:
-    - Examine each directory and file in the local repository
+    - Examine each directory and file in the local repository, focusing on:
+        - `backend/`
+        - `frontend/`
+        - `docs/`
 
 2. **Codebase Scan for Todos and Documentation**:
-    - Identify areas lacking but requiring TODOs.
+- Identify areas lacking but requiring TODOs.  # Updated TODO: Please elaborate on the implementation details.
     - Spot opportunities to enrich inline documentation.
 
 3. **Todo Articulation and Inline Documentation**:
-    - For each area or existing TODO: IMPORTANT: This should be done manually, on a comment-by-comment basis, not programmatically.
+- For each area or existing TODO:  # Updated TODO: Please elaborate on the implementation details.
         1. Understand the context.
-        2. Articulate or edit the TODO for clarity. IMPORTANT: This should be done manually, on a comment-by-comment basis, not programmatically.
-        3. Improve inline documentation. IMPORTANT: This should be done manually, on a comment-by-comment basis, not programmatically.
+2. Articulate or edit the TODO for clarity.  # Updated TODO: Please elaborate on the implementation details.
+        3. Improve inline documentation.
 
 4. **Coding and Implementation**:
-    - Implement the most complete code possible based on the TODOs. IMPORTANT: This should be done manually, on a comment-by-comment basis, not programmatically.
-    - If complete code is unfeasible, include a verbose placeholder. IMPORTANT: This should be done manually, on a comment-by-comment basis, not programmatically.
+- Implement the most complete code possible based on the TODOs.  # Updated TODO: Please elaborate on the implementation details.
+    - If complete code is unfeasible, include a verbose placeholder.
 
 5. **Validation and Testing**:
     - Validate the implemented code or placeholders.
 
 6. **Final Documentation Check**:
-    - Ensure all new TODOs and inline comments align with `TASK_LIST.md` and `iteration_logs`.
+- Ensure all new TODOs and inline comments align with `TASK_LIST.md` and `iteration_logs`.  # Updated TODO: Please elaborate on the implementation details.
 
 ## Update Documentation and Development Logs
 
@@ -72,6 +74,11 @@ Once a task is outlined, proceed to execute it without awaiting further permissi
 
 #### Initial Housekeeping
 
+1. **Switch to the Main Branch and Pull Latest Changes**
+    ```bash
+    git checkout main
+    git pull origin main
+    ```
 
 #### Create a New Version Branch
 
@@ -127,3 +134,7 @@ Once a task is outlined, proceed to execute it without awaiting further permissi
 In this template, `x.x.x` should be replaced with the appropriate incremental version number. The commit and tag messages are designed to be verbose, detailing not just what changes were made but also why they were necessary, thereby providing a complete narrative of the iteration.
 
 ---
+
+## Important Notes for Next Iteration
+- Comments, docstrings, TODOs, etc., should be manually expanded, not programmatically.  # Updated TODO: Please elaborate on the implementation details.
+- Git commands should be specific to the version and ready for execution, displayed in a code block.

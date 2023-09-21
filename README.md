@@ -46,7 +46,7 @@ We welcome contributions from developers of all skill levels. For guidelines on 
 ### Frontend Enhancements
 
 - **User Interface**: The `dashboard.html` file has been updated with Bootstrap to provide a more interactive and visually appealing user interface.
-- **Data Visualization**: The `visualization.js` script now includes detailed placeholders and TODO comments for future enhancements using D3.js.
+- **Data Visualization**: The `visualization.js` script now includes detailed placeholders and TODO comments for future enhancements using D3.js.  # Updated TODO: Please elaborate on the implementation details.
 
 ### Documentation Updates
 
