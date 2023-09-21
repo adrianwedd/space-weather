@@ -1,4 +1,5 @@
 
+
 # Contributing to Space Weather Project
 
 ## Project Objectives
@@ -277,4 +278,29 @@ This project aims to develop a comprehensive web application for monitoring vari
 ## Iteration 58 - Housekeeping and Documentation Improvements
 - Removed redundant task list file.
 - Initiated the process to create a new, amazing `README.md`.
+
+
+
+## Guidelines for Contributing to Version 0.0.51
+
+### Backend Contributions
+
+1. **Asynchronous Data Fetching**: If you're working on `data_collection.py`, ensure that you maintain the asynchronous nature of data fetching.
+2. **Error Handling**: Contributions to `error_handler.py` should align with the established robust error handling methods.
+3. **Security**: Any changes to `authentication.py` must uphold the existing security measures.
+
+### Frontend Contributions
+
+1. **User Interface**: When modifying `dashboard.html`, stick to the Bootstrap framework for consistency.
+2. **Data Visualization**: For `visualization.js`, prepare to use D3.js for advanced and interactive visualizations.
+
+### Documentation Contributions
+
+1. **Task Lists**: Update `TASK_LIST.md` to reflect any new tasks or modifications to existing tasks.
+2. **Iteration Logs**: Create or update logs in the `iteration_logs` directory to document the work completed.
+
+### Testing
+
+1. **Backend**: Implement unit tests for newly added functionalities.
+2. **Frontend**: Validate visualizations and user interface through manual or automated testing.
 
