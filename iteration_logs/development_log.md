@@ -4,7 +4,7 @@
 ## Iteration 1: Initial Code Exploration (Backend)
 
 ### Observations
-- No existing inline TODOs, FIXMEs, or PLACEHOLDER comments were found in the backend Python files.
+- No existing inline TODOs, FIXMEs, or PLACEHOLDER comments were found in the backend Python files.  # Updated TODO: Please elaborate on the implementation details.
 
 ### Insights
 - The absence of such markers suggests that either the code is complete in its existing form or areas requiring attention have not been explicitly marked.
@@ -40,14 +40,14 @@
 ## Iteration 3: Manual Code Inspection (Backend)
 
 ### Observations
-- Added inline TODO comments in Python files to mark areas needing attention.
-- Key findings include the presence of import statements, multiple function definitions, and main execution blocks.
+- Added inline TODO comments in Python files to mark areas needing attention.  # Updated TODO: Please elaborate on the implementation details.
+- Key findings include the presence of import statements, multiple function definitions, and main execution blocks.  # Documentation: Please describe the functionality in detail.
 
 ### Insights
 - Manual inspection offers a comprehensive understanding of the codebase, identifying areas that require further development or review.
 
 ### Reflections
-- The inline TODO comments will serve as guiding markers for subsequent development steps, ensuring that no crucial area is overlooked.
+- The inline TODO comments will serve as guiding markers for subsequent development steps, ensuring that no crucial area is overlooked.  # Updated TODO: Please elaborate on the implementation details.
 
 
 ## Iteration 4 Preparations
@@ -68,21 +68,21 @@
 ## Iteration 4: Manual Code Inspection (Frontend)
 
 ### Observations
-- Added inline TODO comments in HTML, CSS, and JavaScript files to highlight areas needing attention.
+- Added inline TODO comments in HTML, CSS, and JavaScript files to highlight areas needing attention.  # Updated TODO: Please elaborate on the implementation details.
 - Key findings include the presence of HTML elements requiring semantic and accessibility review, as well as CSS rules that may need optimization.
 
 ### Insights
 - Manual inspection serves as a proactive measure to identify areas in the frontend code that require optimization, feature addition, or completion.
 
 ### Reflections
-- The inline TODO comments will act as signposts, steering the development towards improving user experience and code quality.
+- The inline TODO comments will act as signposts, steering the development towards improving user experience and code quality.  # Updated TODO: Please elaborate on the implementation details.
 
 
 ## Iteration 5: Backend Data Wrapping
 
 ### Observations
 - The backend Python script `data_retrieval.py` was identified as the primary source for data fetching.
-- The file currently has API-related configurations and import statements.
+- The file currently has API-related configurations and import statements.  # Documentation: Please describe the functionality in detail.
 
 ### Insights
 - The existing code needs to be converted into callable functions and organized into appropriate modules.
@@ -138,7 +138,7 @@
 ## Iteration 10: Frontend Refinement
 
 ### Observations
-- Identified inline TODO comments in `index.html` and `base.html` outlining required refinements.
+- Identified inline TODO comments in `index.html` and `base.html` outlining required refinements.  # Updated TODO: Please elaborate on the implementation details.
 - Implemented semantic and accessibility improvements in the HTML elements.
 
 ### Insights
@@ -148,7 +148,7 @@
 ## Iteration 11: Backend Placeholder Implementations
 
 ### Observations
-- Identified placeholder implementations and TODO comments in backend Python files.
+- Identified placeholder implementations and TODO comments in backend Python files.  # Updated TODO: Please elaborate on the implementation details.
 - Started the implementation process by refining the `get_a_index` function in `data_retrieval.py`.
 
 ### Insights
@@ -227,7 +227,7 @@
 ### Completed Tasks
 
 1. **Project Setup and Version Control**: Prepared a local copy for development and outlined version control steps.
-2. **Code Exploration and Documentation**: Explored existing code and added inline TODOs.
+2. **Code Exploration and Documentation**: Explored existing code and added inline TODOs.  # Updated TODO: Please elaborate on the implementation details.
 3. **Error Handling and Logging**: Added error handling and logging to the `get_a_index` function.
 4. **Performance Optimization**: Optimized the `get_a_index` function to reduce memory usage.
 5. **Data Caching**: Implemented a simple caching mechanism in the `get_a_index` function.
@@ -435,7 +435,7 @@
 
 ### Code Review
 - Conducted a rudimentary review of the code to check for glaring errors or issues.
-- Scanned for common Python syntax errors like undefined variables, import errors, etc.
+- Scanned for common Python syntax errors like undefined variables, import errors, etc.  # Documentation: Please describe the functionality in detail.
 
 
 ## Iteration 39: Updating Task List and README.md

@@ -25,7 +25,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 
 ## Iteration 3 - Manual Code Inspection Update
 - Conducted a thorough manual inspection of backend Python files.
-- Added inline TODO comments to identify areas requiring attention or further development.
+- Added inline TODO comments to identify areas requiring attention or further development.  # Updated TODO: Please elaborate on the implementation details.
 
 ## Iteration 4 Preparations
 - Added a `requirements.txt` in the backend directory for managing Python package dependencies.
@@ -44,7 +44,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 
 ## Iteration 4 - Manual Code Inspection Update (Frontend)
 - Conducted a meticulous manual inspection of frontend files (HTML, CSS, JavaScript).
-- Added inline TODO comments to highlight areas requiring further development or optimization.
+- Added inline TODO comments to highlight areas requiring further development or optimization.  # Updated TODO: Please elaborate on the implementation details.
 
 ## Iteration 5 - Backend Data Wrapping
 - Identified `data_retrieval.py` as the primary backend file for data fetching.
@@ -69,7 +69,7 @@ This project aims to develop a comprehensive web application for monitoring vari
 
 
 ## Iteration 10 - Frontend Refinement
-- Identified and implemented refinements based on inline TODO comments in the frontend HTML files.
+- Identified and implemented refinements based on inline TODO comments in the frontend HTML files.  # Updated TODO: Please elaborate on the implementation details.
 
 
 ## Iteration 11 - Backend Placeholder Implementations
@@ -305,6 +305,6 @@ This project aims to develop a comprehensive web application for monitoring vari
 2. **Frontend**: Validate visualizations and user interface through manual or automated testing.
 
 
-## Adding TODOs and Documentation
-- Always add a TODO comment for code sections that require future work.
+## Adding TODOs and Documentation  # Updated TODO: Please elaborate on the implementation details.
+- Always add a TODO comment for code sections that require future work.  # Updated TODO: Please elaborate on the implementation details.
 - Include detailed inline documentation for functions, methods, and complex code blocks.
